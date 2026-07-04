@@ -1,0 +1,14 @@
+{
+  "name": "@vgi-azure/node-auth",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "exports": { ".": "./src/index.ts" },
+  "license": "LicenseRef-Proprietary",
+  "scripts": { "test": "bun test" },
+  "dependencies": {
+    "@vgi-azure/graph-core": "file:../vgi-azure-graph-core",
+    "@azure/msal-node": "^3"
+  }
+}
