@@ -8,7 +8,7 @@
   "license": "LicenseRef-Proprietary",
   "scripts": { "test": "bun test" },
   "dependencies": {
-    "@vgi-azure/graph-core": "git+ssh://git@github.com/Query-farm/vgi-azure-graph-core.git",
+    "@vgi-azure/graph-core": "github:Query-farm/vgi-azure-graph-core",
     "@azure/msal-node": "^3"
   }
 }

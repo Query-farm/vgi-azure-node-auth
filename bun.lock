@@ -6,7 +6,7 @@
       "name": "@vgi-azure/node-auth",
       "dependencies": {
         "@azure/msal-node": "^3",
-        "@vgi-azure/graph-core": "git+ssh://git@github.com/Query-farm/vgi-azure-graph-core.git",
+        "@vgi-azure/graph-core": "github:Query-farm/vgi-azure-graph-core",
       },
     },
   },
@@ -15,7 +15,7 @@
 
     "@azure/msal-node": ["@azure/msal-node@3.8.10", "", { "dependencies": { "@azure/msal-common": "15.17.0", "jsonwebtoken": "^9.0.0", "uuid": "^8.3.0" } }, "sha512-0Hz7Kx4hs70KZWep/Rd7aw/qOLUF92wUOhn7ZsOuB5xNR/06NL1E2RAI9+UKH1FtvN8nD6mFjH7UKSjv6vOWvQ=="],
 
-    "@vgi-azure/graph-core": ["@vgi-azure/graph-core@git+ssh://git@github.com/Query-farm/vgi-azure-graph-core.git#a24f58b4026436400359874ce5bb309c256dec3b", {}, "a24f58b4026436400359874ce5bb309c256dec3b"],
+    "@vgi-azure/graph-core": ["@vgi-azure/graph-core@github:Query-farm/vgi-azure-graph-core#a24f58b", {}, "Query-farm-vgi-azure-graph-core-a24f58b", "sha512-0QcbpIn7Ovk9CB2DZyVBoA+HwFPWz/aaETPpPbbavCdvBuL0Qg7RUEyLw91V/W8w7Am8y1e6pLnktAPdKa/GYg=="],
 
     "buffer-equal-constant-time": ["buffer-equal-constant-time@1.0.1", "", {}, "sha512-zRpUiDwd/xk6ADqPMATG8vc9VPrkck7T07OIx0gnjmJAnHnTVXNQG3vfvWNuiZIkwu9KrKdA1iJKfsfTVxE6NA=="],
 
